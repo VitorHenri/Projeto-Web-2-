@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.principal{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.inserir{
+    width:50%;
+    float:left;
+}
+
+.checar{
+    width:50%;
+    float: left;
+}
+
+ img{
+    width: 100%;
+}
+
+input[type*="su"]{
+    border:0;
+    background-color: rgb(71, 39, 17);
+    line-height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    width:80%;
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+input[type="text"]{
+    width: 45%;
+    float: left;
+    line-height: 30px;
+}
+
+.tabela{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.tabela table{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 500px;
+    background-color: rgb(226, 218, 207);
+
+}
+
+td{
+    border: 1px solid black;
+}
